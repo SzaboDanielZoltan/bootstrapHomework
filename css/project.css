@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+button,
+nav {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+p,
+footer {
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+
+header {
+  background:url(/img/bg-pattern.png) repeat,
+            linear-gradient(to right,#CE3441 0%, 	#434168 100%) repeat scroll 0% 0%;
+  color: #ffffff;
+}
+
+nav {
+  background: inherit;
+}
+
+ul a,
+.navbar-brand,
+.fa-bars {
+  color: #fdcc52;
+}
+
+ul a:hover,
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.scrolled {
+  background: #ffffff;
+}
+
+.scrolled ul a,
+.scrolled .navbar-brand,
+.scrolled .fa-bars {
+  color: #444444;
+}
+
+.scrolled ul a:hover,
+.scrolled .navbar-brand:hover {
+  color: #fdcc52;
+}
+
+.navbar-toggler {
+  border: 2px 
+}
+
+.start,
+.discover,
+.features,
+.socialmedia {
+  padding: 60px 0px 60px 0px;
+}
+
+.myButton {
+  border: 2px solid #ffffff;
+  border-radius: 200px;
+  padding: 10px 50px;
+  background: inherit;
+  color: #ffffff;
+  transition: color 0.3s, border 0.3s;
+}
+
+.myButton:hover {
+  color: #fdcc52;
+  border: 2px solid #fdcc52;
+}
+
+.discover {
+  background: #fdcc52;
+}
+
+.letsGetStarted {
+  background:url(/img/bg-cta.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  color: #ffffff;
+  height: 35vw;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+  .letsGetStarted {
+    height: 65vw;
+  }
+}
+
+.socialmedia {
+  background-color:rgba(253, 204, 82, 0.9);
+}
+
+.socialmedia:hover {
+  background-color:rgba(253, 204, 82, 1);
+}
+
+.fa-heart {
+  color: #ff0000;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+  margin: 0px 10px 0px 10px;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  margin: 0px 10px 0px 10px;
+}
+
+.fa-google-plus {
+  color: #d34836;
+  margin: 0px 10px 0px 10px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+footer span {
+  margin: 0px 10px 0px 10px;
+}
+
+footer span:hover {
+  color: #fdcc52;
+  cursor: pointer;
+}
