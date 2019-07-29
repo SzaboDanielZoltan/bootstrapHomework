@@ -26,7 +26,7 @@ const TestimonialRandomizer = {
   getFiveRandomIndex() {
     const fiveRandIndexFromPeople = new Set();
     while (fiveRandIndexFromPeople.size < 5) {
-      fiveRandIndexFromPeople.add(Math.floor(Math.random() * this.people.length) + 1);
+      fiveRandIndexFromPeople.add(Math.floor(Math.random() * this.people.length));
     }
     return Array.from(fiveRandIndexFromPeople);
   },
@@ -52,3 +52,9 @@ const TestimonialRandomizer = {
 };
 
 TestimonialRandomizer.init();
+
+
+// Tooltip init
+$(() => {
+  $('[data-toggle="tooltip"]').tooltip();
+});

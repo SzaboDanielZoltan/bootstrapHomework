@@ -69,17 +69,17 @@ ul a:hover,
 }
 
 .myButton {
+  background: inherit;
   border: 2px solid #ffffff;
   border-radius: 200px;
-  padding: 10px 50px;
-  background: inherit;
   color: #ffffff;
+  padding: 10px 50px;
   transition: color 0.3s, border 0.3s;
 }
 
 .myButton:hover {
-  color: #fdcc52;
   border: 2px solid #fdcc52;
+  color: #fdcc52;
 }
 
 .discover {
@@ -87,14 +87,14 @@ ul a:hover,
 }
 
 .letsGetStarted {
+  align-items: center;
   background:url(/img/bg-cta.jpg);
   background-position: center;
   background-size: 100% auto;
   color: #ffffff;
+  display: flex;
   height: 35vw;
   opacity: 0.9;
-  display: flex;
-  align-items: center;
 }
 
 @media screen and (max-width: 425px) {
@@ -109,6 +109,10 @@ ul a:hover,
 
 .socialmedia:hover {
   background-color:rgba(253, 204, 82, 1);
+}
+
+.socialmedia span {
+  display: inline-block;
 }
 
 .fa-heart {
@@ -131,9 +135,9 @@ ul a:hover,
 }
 
 footer {
-  padding: 20px;
   background-color: #000000;
   color: #ffffff;
+  padding: 20px;
 }
 
 footer span {
