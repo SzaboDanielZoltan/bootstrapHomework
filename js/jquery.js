@@ -35,8 +35,7 @@ const TestimonialRandomizer = {
     for (let i = 0; i < fiveWinner.length; i += 1) {
       $(`#testim-content div:nth-child(${i + 1}) img`).attr('src', fiveWinner[i].picture);
       $(`#testim-content div:nth-child(${i + 1}) .h4`).text(`${fiveWinner[i].name.first} ${fiveWinner[i].name.last}`);
-      $(`#testim-content div:nth-child(${i + 1}) p`).html(`${fiveWinner[i].greeting}<br>
-      I'm ${fiveWinner[i].name.first} ${fiveWinner[i].name.last} and I work for ${fiveWinner[i].company} company. We use this app worldwide so if you need any help with it, just call us: ${fiveWinner[i].phone}.`);
+      $(`#testim-content div:nth-child(${i + 1}) p`).html(`${fiveWinner[i].greeting}`);
     }
   },
   getData(data) {
